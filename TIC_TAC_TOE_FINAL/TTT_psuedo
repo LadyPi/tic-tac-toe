@@ -14,7 +14,16 @@ reset button
 Make a grid 3X3 squares
 message container
 
+
 Step 2:
+
+// construct css style body //
+
+add background theme
+form style
+
+
+Step 3:
 
 // implement variables //
 
@@ -25,10 +34,7 @@ reset
 winner
 
 
-// pull element tags//
-
-define location tags to pull into functions
-
+Step 4: 
 
 // implement functions //
 
@@ -38,9 +44,10 @@ ui_message();
 resetGame();
 trackKeeper();
 
-Step 3
+// pull element tags//
 
-// construct css style body //
+define location tags to pull into functions
 
-add background theme
-form style
+
+
+

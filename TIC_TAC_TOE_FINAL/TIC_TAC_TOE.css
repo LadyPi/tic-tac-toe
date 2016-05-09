@@ -31,8 +31,8 @@ table tr th:last-child {
 }*/
 
 #header{
-    margin: 0.5em;
-    padding: 0.5em;
+    margin: center;
+    padding: 20px;
     text-align: center;
     font-family: Tahoma;
     font-size: 3em;
