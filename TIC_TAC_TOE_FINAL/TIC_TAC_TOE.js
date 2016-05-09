@@ -8,7 +8,7 @@ function startGame() {
     xListener();
 }
 
-function xListener(){
+function xoListener(){
     var cells = document.getElementsByTagName("td");
         cells.addEventListener("click", console.log("clicked."))
 }
@@ -18,14 +18,16 @@ function oListener(){
 }
 
 
+var turn = "X"
 
- window.onload = startGame();
+function playXorO(){
+    if (turn == "X") {
+        turn = "O";
+    } else {
+        turn = "X";
+    };
 
-var cells = document.getElementsByTagName("td");
-
-function startGame() {
-    xoListener();
-};
+} 
 
 
 
