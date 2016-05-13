@@ -1,48 +1,45 @@
 <!DOCTYPE html>
- <html>
+ <html lang="en">
+
 	<head>
-		<link rel = "stylesheet" type = "text/css" href = "css/TTT_revised.css">
-	<!-- 	<script type = "text/javascript" href = "tic_tac_toe.js"></script> -->
+		<meta charset="UTF-8">
 		<title>Tic Tac Toe</title>
+		<link rel = "stylesheet" type = "text/css" href = "css/TTT_revised.css">
+		<!-- <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.1/themes/pepper-grinder/jquery-ui.css" type="text/css" /> -->
 	</head>
 
 	<body>
+
 		<header>
 			<p>Let's Play Tic Tac Toe!</p>
+			<button id="reset" alt="Game Reset Button">Click To Play!</button>
 		</header>
 
 
-	<div id="wrapper">
-
-		 <!-- <div class = "playAgain"> -->
-			<!-- <input type="reset" value="Play Again" /> alt? -->
-			<button id="reset" alt="Game Reset Button">Play Again</button>
-			<!-- attempt to make button large enough so that if hovered over by sight imparied person so they don't miss it. Learn more about colors that are best. For now contract colors with bold letters. -->
-		 <!-- </div> -->
+		<div id="wrapper">
 		 
-		 <div id = "ui_message">you picked such and such, you win.</div>
+			<div id = "ui_message">MESSAGE HERE!!</div>
 
-	<!-- <div id="gameboard"> -->
+			<!-- <div id="gameboard"> -->
 		<!-- //container -->
-	<table>
-		<tr>
-			<td class= "cell" id="c1">c1</td>
-			<td class= "cell" id="c2">c2</td>
-			<td class= "cell" id="c3">c3</td>
-
-			<td class= "cell" id="c4">c4</td>
-			<td class= "cell" id="c5">c5</td>
-			<td class= "cell" id="c6">c6</td>
-
-			<td class= "cell" id="c7">c7</td>
-			<td class= "cell" id="c8">c8</td>
-			<td class= "cell" id="c9">c9</td>
-		</tr>
-	</table>
-	<!-- </div> -->
-	</div>
-
-
+		    	<table>
+					<tr>
+						<td class= "cell" id="c1"></td>
+						<td class= "cell" id="c2"></td>
+						<td class= "cell" id="c3"></td>
+					</tr>
+						<td class= "cell" id="c4"></td>
+						<td class= "cell" id="c5"></td>
+						<td class= "cell" id="c6"></td>
+					</tr>
+						<td class= "cell" id="c7"></td>
+						<td class= "cell" id="c8"></td>
+						<td class= "cell" id="c9"></td>
+				</table>
+			<!-- </div> -->
+		</div>
+		<script type='text/javascript' src='https://code.jquery.com/jquery-2.1.1.min.js'></script>
+		<script type='text/javascript' src='https://code.jquery.com/ui/1.11.1/jquery-ui.min.js'></script>
+		<script type="text/javascript" src="TTT_revised.js"></script>
 	</body>
-
 </html>
